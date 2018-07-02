@@ -27,7 +27,7 @@ end
 puts  "What's your name?".underline
     name = gets
     puts ""
-    puts "Hello #{name}! Answer 10 questions to find out if you are Walmart or Chanel :) Hit enter to start <3.".underline
+    puts "Hello #{name} Answer 10 questions to find out if you are Walmart or Chanel :) Hit enter to start <3.".underline
     ready = gets
         if ready == " "
             puts "Type out the ENTIRE answer - I shouldn't see 'y' for yes; type out 'yes' it's really not that hard. Without further adieu, let's get started!".underline
